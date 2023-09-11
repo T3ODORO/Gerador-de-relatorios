@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/Semanal.css">
+</head>
+<body>
+    
+    <div class="container">
+        <input type="text" name="empresa" id="empresa" placeholder="Informe o nome da empresa">
+
+        <form action="#" method="post" onsubmit="calculaSemana(event)">
+            <div class="form-group">
+                <div class="grupo1">
+                    <label for="month1">Mês 1:</label>
+                    <select name="month1" id="month1">
+                        <option value="1">Janeiro</option>
+                        <option value="2">Fevereiro</option>
+                        <option value="3">Março</option>
+                        <option value="4">Abril</option>
+                        <option value="5">Maio</option>
+                        <option value="6">Junho</option>
+                        <option value="7">Julho</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Setembro</option>
+                        <option value="10">Outubro</option>
+                        <option value="11">Novembro</option>
+                        <option value="12">Dezembro</option>
+                    </select>
+                </div>
+                <div class="grupo2">
+                        <label for="month2">Mês 2:</label>
+                        <select name="month2" id="month2">
+                            <option value="1">Janeiro</option>
+                            <option value="2">Fevereiro</option>
+                            <option value="3">Março</option>
+                            <option value="4">Abril</option>
+                            <option value="5">Maio</option>
+                            <option value="6">Junho</option>
+                            <option value="7">Julho</option>
+                            <option value="8">Agosto</option>
+                            <option value="9">Setembro</option>
+                            <option value="10">Outubro</option>
+                            <option value="11">Novembro</option>
+                            <option value="12">Dezembro</option>
+                        </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="number1">Número 1:</label>
+                <input type="number" name="number1" id="number1" min="1">
+                <label for="number2">Número 2:</label>
+                <input type="number" name="number2" id="number2" min="1">
+            </div>
+            <button class="btn-generate" type="submit">Gerar</button>
+        </form>
+        <p id="result"></p>
+    </div>
+
+    <script src="pagSemanal.js"></script>
+    
+</body>
+</html>

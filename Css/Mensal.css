@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    background-color: #6b47af;
+    color: white;
+    height: 500px;
+    border-radius: 15px;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    order: -1; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group select,
+.form-group input[type="number"] {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.form-group label,
+.form-group input[type="number"] {
+    width: 50%; 
+}
+
+.form-group select {
+    display: inline-block;
+}
+
+.form-group input[type="number"] {
+    display: inline-block;
+}
+
+.btn-generate {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-generate:hover {
+    background-color: #0056b3;
+}
+
+#month1{
+    width: 200px;
+}
+
+#month2{
+    width: 200px;    
+}
